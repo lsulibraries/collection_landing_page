@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ldl_collection_landing_page.features.field_base.inc
+ * collection_landing_page.features.field_base.inc
  */
 
 /**
  * Implements hook_field_default_field_bases().
  */
-function ldl_collection_landing_page_field_default_field_bases() {
+function collection_landing_page_field_default_field_bases() {
   $field_bases = array();
 
   // Exported field_base: 'body'.

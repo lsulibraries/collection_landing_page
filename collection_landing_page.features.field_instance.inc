@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ldl_collection_landing_page.features.field_instance.inc
+ * collection_landing_page.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function ldl_collection_landing_page_field_default_field_instances() {
+function collection_landing_page_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance: 'node-landing_page-body'.

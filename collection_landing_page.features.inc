@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ldl_collection_landing_page.features.inc
+ * collection_landing_page.features.inc
  */
 
 /**
  * Implements hook_node_info().
  */
-function ldl_collection_landing_page_node_info() {
+function collection_landing_page_node_info() {
   $items = array(
     'landing_page' => array(
       'name' => t('Landing Page'),
